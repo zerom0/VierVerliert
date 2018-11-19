@@ -1,4 +1,9 @@
-# Template for QT Project with cmake
+# Game night hack for a Vier Gewinnt online game
+
+The game can be found at 
+https://github.com/lakermann/connect-four-challenge-server
+
+## Development notes
 
 If QT is not found on your platform you can point `CMAKE_PREFIX_PATH` to it.
 
@@ -7,3 +12,6 @@ If QT is not found on your platform you can point `CMAKE_PREFIX_PATH` to it.
 To inspect QT Datatypes like QString, QVector, QPointer, ... in __lldb__ use the rendering scripts from 
 https://bitbucket.org/lukeworth/lldb-qt-formatters/overview
 
+
+## Coding style
+Google + space after ```*``` and ```&```
